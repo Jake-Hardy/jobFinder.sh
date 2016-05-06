@@ -32,31 +32,31 @@ job_num=$1
 
 if [ "$2" = "ABFS" ] || [ "$2" = "abfs" ]
 then
-    client="Advance Benefit Funding Sources (ABFS)"
-elif [ "$2" = "Avidia" ] || [ "$2" = "avidia" ] || [ "$2" = "AH" ] || [ "$2" = "ah" ]
+    client="*removed*"
+elif [ "$2" = "*removed*" ] || [ "$2" = "*removed*" ] || [ "$2" = "AH" ] || [ "$2" = "ah" ]
 then
-    client="Avidia Health (AH)"
-elif [ "$2" = "AmeraPlan" ] || [ "$2" = "ameraplan" ] || [ "$2" = "AP" ] || [ "$2" = "ap" ]
+    client="*removed*"
+elif [ "$2" = "*removed*" ] || [ "$2" = "*removed*" ] || [ "$2" = "AP" ] || [ "$2" = "ap" ]
 then
-    client="AmeraPlan (AP)"
-elif [ "$2" = "ECHO" ] || [ "$2" = "echo" ] || [ "$2" = "Echo" ]
+    client="*removed*"
+elif [ "$2" = "*removed*" ] || [ "$2" = "*removed*" ] || [ "$2" = "Echo" ]
 then
-    client="ECHO Health (ECHO)"
+    client="*removed*"
 elif [ "$2" = "GHW" ] || [ "$2" = "ghw" ]
 then
-    client="GPA HealthWatch (GHW)"
+    client="*removed*"
 elif [ "$2" = "KBA" ] || [ "$2" = "kba" ]
 then
-    client="Key Benefit Administrators (KBA)"
-elif [ "$2" = "Nova" ] || [ "$2" = "nova" ] || [ "$2" = "NV" ] || [ "$2" = "nv" ]
+    client="*removed*"
+elif [ "$2" = "*removed*" ] || [ "$2" = "*removed*" ] || [ "$2" = "NV" ] || [ "$2" = "nv" ]
 then
-    client="Nova (NV)"
+    client="*removed*"
 elif [ "$2" = "TPSC" ] || [ "$2" = "tpsc" ]
 then
-    client="Trusteed Plans Service Corporation (TPSC)"
+    client="*removed*"
 fi
 
-echo -e "\nCD'ing to /volumes/Ocozzio_Workflow/$client"
+echo -e "\nCD'ing to /volumes/word_directory/$client"
 echo -e "\nclient: $client"
 echo -e "job: $job_num\n"
 cd /
